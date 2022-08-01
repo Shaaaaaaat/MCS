@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2{
+    color: white;
+    background-color: black;
+
+    margin: 30px 20px 30px 20px;
+}
+img {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+ul{
+    margin-top: 30px;
+    margin-left: 34px;
+    margin-bottom: 30px;
+}
+.bio {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bio:hover{
+    color: blue;
+}
+.links_internal:hover{
+    color: purple;
+}
+.links_external:hover{
+    color: orange;
+}
