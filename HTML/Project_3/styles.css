@@ -4,10 +4,6 @@
   box-sizing: border-box;  
 }
 
-body{
-    width: 1440px;
-}
-
 .header{
     background-color: #E5E000;
     height: 200px;
@@ -22,13 +18,12 @@ body{
 .img{
     height: 1080px;
     background-image: url(images/img.png);
+    background-size: cover;
    
 }
 .homework{
-    padding-top: 36px;
-    padding-left: 80px;
+    padding: 36px 80px;
     background-color: #E5E000;
-    height: 100px;
     color: #fff;
     font-family: 'Helvetica';
     font-size: 25px;
