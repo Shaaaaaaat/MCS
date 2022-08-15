@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body{
+    width: 1440px;
+}
+
+.header{
+    background-color: #E5E000;
+    height: 200px;
+    color: #fff;
+    font-weight: 700px;
+    font-family: 'Helvetica';
+    font-size: 50px;
+    padding-left: 80px;
+    padding-top: 60px;
+}
+
+.img{
+    height: 1080px;
+    background-image: url(images/img.png);
+   
+}
+.homework{
+    padding-top: 36px;
+    padding-left: 80px;
+    background-color: #E5E000;
+    height: 100px;
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 25px;
+}
+
+.main{
+    height: 747px;
+    margin-top: 110px;
+    margin-left: 80px;
+}
+
+.text1{
+    width: 1280px;
+    font-family: 'Helvetica';
+    font-size: 50px;
+    margin-bottom: 57.5px;
+    font-weight: 300;
+}
+
+.text2{
+    width: 1280px;
+    font-family: 'Helvetica';
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.name{
+    color: #fff;
+    font-size: 50px;
+    margin-right: 80px;
+    font-family: 'Helvetica';
+}
+
+.logo{
+    margin-left: 80px;
+}
+
+.footer{
+    display: flex;
+    height: 200px;
+    background-color: #E5E000;
+    justify-content: space-between;
+    align-items: center;
+}
