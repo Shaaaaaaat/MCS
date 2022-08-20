@@ -24,7 +24,6 @@ a:link, a:visited{
 }
 
 .menu > li {
-
     display: inline;
     margin-right: 25px;
 }
@@ -72,30 +71,24 @@ a:link, a:visited{
 
 }
 
-.bottles, .naming2{
+.bottles{
     display: flex;
     justify-content: center;
 }
-.bottles>.item{
+
+.bottles>div{
     margin-right: 100px;
 }
-.bottles>.item:last-of-type{
+.bottles>div:last-of-type{
     margin-right: 0;
 }
 
-.naming2{
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.naming2>.item{
+p{
     font-family: 'arial';
-    font-weight: 400;
+    font-weight: 400;   
     font-size: 25px;
     margin-top: 42px;
-    align-self: center;
-    margin-right: 137px;
+    text-align: center;
 
 }
 
