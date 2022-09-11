@@ -7,8 +7,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
- 
+    justify-content: center; 
 }
 
 .header, .footer{
@@ -19,10 +18,7 @@
     font-weight: 700;
 
     padding: 35px 30px;
-    
-    width: 100%;
-   
- 
+    width: 100%; 
 }
 
 .section{

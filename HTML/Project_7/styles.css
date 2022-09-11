@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.header, .footer{
+    background-color: #FFE138;
+    color: black;
+    
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    padding: 52px;
+}
+
+.table{
+    border: 1px solid black;
+    width: 400px;
+    padding: 33px;
+    margin: 50px;
+}
+
+/*Макет для мобильных телефонов*/
+@media only screen and (max-width:400px){
+    
+    .table{
+        height: auto;
+        justify-content: inherit;
+        align-items: inherit;
+        flex-wrap: wrap;
+        
+    }
+    .photo img{
+        width: 100%;
+        display: block;
+    }
+}
+/*Макет для планшетов*/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+   .container {
+    width: 50%;
+   }
+
+}

@@ -47,11 +47,25 @@ box-sizing: border-box;
     background-color: #29fd2f;
   }
 
+  .illustration img{
+    width: 100%;
+    display: block;
+  }
+
 /*Макет для мобильных телефонов*/
 @media only screen and (max-width:400px){
     body{
     background-color: #29fd2f; /* Зеленый */   
     } 
+    .header{
+        height: auto;
+        justify-content: inherit;
+        align-items: inherit;
+    }
+    .photo img{
+        width: 100%;
+        display: block;
+    }
 }
 /*Макет для планшетов*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
