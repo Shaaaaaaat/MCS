@@ -4,13 +4,10 @@
     box-sizing: border-box;
 }
 
-.page{
-    width: 100%;
-}
-
 .container{
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
 .header, .footer{
@@ -27,29 +24,14 @@
 .table{
     border: 1px solid black;
     width: 400px;
-    padding: 33px;
     margin: 50px;
 }
 
-/*Макет для мобильных телефонов*/
-@media only screen and (max-width:400px){
-    
-    .table{
-        height: auto;
-        justify-content: inherit;
-        align-items: inherit;
-        flex-wrap: wrap;
-        
-    }
-    .photo img{
-        width: 100%;
-        display: block;
-    }
+img{
+    width: 100%;
 }
-/*Макет для планшетов*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-   .container {
-    width: 50%;
-   }
 
+.text{
+    padding: 30px 33px;
 }
+
